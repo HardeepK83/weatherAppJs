@@ -9,15 +9,41 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
+        <div class="header"> 
                 <div class="search-box">
                     <input type="text" placeholder="Enter Your Location" class="input-box">
-                    
-                    
-                    <button class="fa-solid fa-magnifying-glass">Search</button>
+                       
+                    <button class="fa-solid fa-magnifying-glass" id="search8tn"></button>
                 </div>
         </div>
-        <div class="weather-body"></div>
+        <div class="weather-body">
+            <img src="C:\Users\Think\Desktop\WEATHER\assets\rain.png" alt="Weather Image" class="weather-img">
+            <div class="weather-box">
+                <p class="temperature">0<sup>°C</sup></p>
+                <P class="description">Light Rain</P>
+            </div>
+
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="fa-sharp fa-solid fa-droplet"></i> 
+                    <div class="text">
+                        <span id="humidity">50%</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span id="wind-speed">15Km/H</span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>    
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/89fe77a3fa.js" crossorigin="anonymous"></script>
 </body>
 </html>
